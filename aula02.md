@@ -47,6 +47,7 @@ Prof. José Olinda
 
 --
 
+
 ## Exemplo de rotas
 
 ```python
@@ -138,30 +139,22 @@ def show_float(float_number):
 ---
 
 <!-- .slide: data-background="#4d7e65" -->
-# Criar uma aplicação com rotas em Flask dinâmicas
-#### Exemplo: Rede Social de Fotos
-
-```python
-from flask import Flask
-
+#### Exemplo de Rotas Rede Social de Foto
+<pre><code data-line-numbers="1-9|10-14">from flask import Flask
 app = Flask(__name__)
-
 @app.route('/')
 def index():
     return 'Bem-vindo ao Flaskgram!'
-
-@app.route('/perfil/<username>')
+@app.route('/perfil/&ltusername&gt')
 def perfil(username):
     return 'Perfil do usuário %s' % username
-
-@app.route('/feed/<int:post_id>')
+@app.route('/feed/&gtint:post_id&gt')
 def feed(post_id):
     return 'Foto %d' % post_id
-
-@app.route('/feed/<int:post_id>/comentarios')
+@app.route('/feed/&ltint:post_id&gt/comentarios')
 def comentarios(post_id):
     return 'Comentários da foto %d' % post_id
-```
+</code></pre>
 
 ---
 

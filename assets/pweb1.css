@@ -66,3 +66,27 @@ ul li {
                         transparent 75%,
                         transparent)
 }
+
+.reveal strong, .reveal b {
+  color: #00de6b;
+}
+
+.reveal ul li {
+  font-family: 'Roboto';
+  font-weight: lighter !important;
+}
+
+.reveal ul {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  padding-bottom: 2rem;
+  border-bottom: thin solid rgba(255, 255, 255, .4)
+}
