@@ -1,0 +1,104 @@
+/* Define o estilo para o corpo do documento */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Define o estilo para os cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+}
+
+/* Define o estilo para os links */
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Define o estilo para o formulário de login */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Define o estilo para o formulário de registro */
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-form h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.register-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}

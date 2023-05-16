@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+    <h3>Produtos do Carrinho</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nome</th>
+            </tr>
+            {% for p in produtos %}
+                <tr>
+                    <td>{{p}}</td>
+                    <td>{{"nome do produto " + p}}</td>
+                </tr>
+
+            {% endfor %}
+        </thead>
+    </table>
+
+{% endblock %}
